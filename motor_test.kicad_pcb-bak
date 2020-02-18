@@ -540,7 +540,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5E4C18C8)
-    (at 65.91 95.25 180)
+    (at 43.05 96.52 180)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5E7CA92D)
@@ -576,7 +576,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5E4C3AE9)
-    (at 68.45 62.23)
+    (at 45.59 63.5)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5E7C9A33)
@@ -612,7 +612,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5E4C3B9C)
-    (at 67.18 78.74 90)
+    (at 44.32 80.01 90)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5E7CA4DB)
@@ -648,7 +648,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5E4C1895)
-    (at 49.4 83.82 90)
+    (at 26.54 85.09 90)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5E7C96D7)
@@ -684,7 +684,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5E4C1884)
-    (at 44.32 106.68)
+    (at 21.46 107.95)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5E7C7B37)
@@ -1333,7 +1333,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5E4C1716)
-    (at 60.96 85.09 90)
+    (at 38.1 86.36 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5E7C2F6D)
@@ -1374,7 +1374,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5E4C1701)
-    (at 61.23 72.39 90)
+    (at 38.37 73.66 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5E7C364B)
@@ -1415,7 +1415,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5E4C3A67)
-    (at 52.07 100.33 90)
+    (at 29.21 101.6 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5E7C3C3D)
