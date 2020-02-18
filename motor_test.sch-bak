@@ -721,8 +721,8 @@ $Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 5E6552D1
 P 4100 3100
-F 0 "J4" V 4254 2912 50  0000 R CNN
-F 1 "Conn_01x02_Male" V 4163 2912 50  0000 R CNN
+F 0 "J4" V 4208 2912 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 4163 2912 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 3100 50  0001 C CNN
 F 3 "~" H 4100 3100 50  0001 C CNN
 	1    4100 3100
@@ -742,8 +742,8 @@ $Comp
 L Connector:Conn_01x01_Male J2
 U 1 1 5E65E0F0
 P 1450 3650
-F 0 "J2" V 1604 3562 50  0000 R CNN
-F 1 "Conn_01x01_Male" V 1513 3562 50  0000 R CNN
+F 0 "J2" V 1558 3562 50  0000 R CNN
+F 1 "Conn_01x01_Male" V 1513 3562 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1450 3650 50  0001 C CNN
 F 3 "~" H 1450 3650 50  0001 C CNN
 	1    1450 3650
@@ -754,8 +754,8 @@ $Comp
 L Connector:Conn_01x01_Male J3
 U 1 1 5E65E8D6
 P 2800 2450
-F 0 "J3" H 2772 2382 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 2772 2473 50  0000 R CNN
+F 0 "J3" H 2772 2428 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 2772 2473 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2800 2450 50  0001 C CNN
 F 3 "~" H 2800 2450 50  0001 C CNN
 	1    2800 2450
@@ -765,8 +765,8 @@ $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 5E65FDD3
 P 800 2050
-F 0 "J1" H 908 2231 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 908 2140 50  0000 C CNN
+F 0 "J1" H 908 2139 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 908 2140 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 800 2050 50  0001 C CNN
 F 3 "~" H 800 2050 50  0001 C CNN
 	1    800  2050
@@ -784,4 +784,112 @@ Wire Wire Line
 Connection ~ 1500 2550
 Wire Wire Line
 	1500 2550 1500 2650
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 5E4C4BC3
+P 9600 2200
+F 0 "Q?" H 9450 2100 50  0000 L CNN
+F 1 "BC817" H 9450 2000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9800 2125 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 9600 2200 50  0001 L CNN
+	1    9600 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 5E4C4F85
+P 10200 2200
+F 0 "Q?" H 10050 2100 50  0000 L CNN
+F 1 "BC817" H 10050 2000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10400 2125 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 10200 2200 50  0001 L CNN
+	1    10200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E4C96B6
+P 9700 1950
+F 0 "R?" V 9907 1950 50  0000 C CNN
+F 1 "10k" V 9816 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9630 1950 50  0001 C CNN
+F 3 "~" H 9700 1950 50  0001 C CNN
+	1    9700 1950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E4C9969
+P 10100 1950
+F 0 "R?" V 10307 1950 50  0000 C CNN
+F 1 "10k" V 10216 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10030 1950 50  0001 C CNN
+F 3 "~" H 10100 1950 50  0001 C CNN
+	1    10100 1950
+	0    1    -1   0   
+$EndComp
+Connection ~ 10300 1950
+Wire Wire Line
+	9850 1950 9950 2200
+Wire Wire Line
+	9950 1950 9850 2200
+Wire Wire Line
+	9850 2200 9850 3000
+Wire Wire Line
+	9950 2200 9950 3000
+Wire Wire Line
+	10300 1950 10600 1950
+Wire Wire Line
+	9500 2400 10300 2400
+Wire Wire Line
+	10300 2000 10300 1950
+Wire Wire Line
+	9500 1600 10300 1600
+$Comp
+L Device:R R?
+U 1 1 5E4C9332
+P 10300 1750
+F 0 "R?" V 10507 1750 50  0000 C CNN
+F 1 "1k" V 10416 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10230 1750 50  0001 C CNN
+F 3 "~" H 10300 1750 50  0001 C CNN
+	1    10300 1750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E4C8F84
+P 9500 1750
+F 0 "R?" V 9707 1750 50  0000 C CNN
+F 1 "1k" V 9616 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9430 1750 50  0001 C CNN
+F 3 "~" H 9500 1750 50  0001 C CNN
+	1    9500 1750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10300 1950 10300 1900
+Wire Wire Line
+	9500 1900 9500 1950
+Wire Wire Line
+	9800 2200 9850 2200
+Connection ~ 9850 2200
+Wire Wire Line
+	9550 1950 9500 1950
+Connection ~ 9500 1950
+Wire Wire Line
+	9500 1950 9500 2000
+Wire Wire Line
+	10250 1950 10300 1950
+Wire Wire Line
+	9950 2200 10000 2200
+Connection ~ 9950 2200
+Text GLabel 10600 1950 2    50   Input ~ 0
+DISABLE
+Wire Wire Line
+	9150 1600 9500 1600
+Connection ~ 9500 1600
+Wire Wire Line
+	9500 2400 9150 2400
+Connection ~ 9500 2400
 $EndSCHEMATC

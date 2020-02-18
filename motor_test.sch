@@ -784,4 +784,112 @@ Wire Wire Line
 Connection ~ 1500 2550
 Wire Wire Line
 	1500 2550 1500 2650
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 5E4C4BC3
+P 8450 2450
+F 0 "Q?" H 8300 2350 50  0000 L CNN
+F 1 "BC817" H 8300 2250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8650 2375 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 8450 2450 50  0001 L CNN
+	1    8450 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 5E4C4F85
+P 9050 2450
+F 0 "Q?" H 8900 2350 50  0000 L CNN
+F 1 "BC817" H 8900 2250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9250 2375 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 9050 2450 50  0001 L CNN
+	1    9050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E4C96B6
+P 8550 2200
+F 0 "R?" V 8757 2200 50  0000 C CNN
+F 1 "10k" V 8666 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8480 2200 50  0001 C CNN
+F 3 "~" H 8550 2200 50  0001 C CNN
+	1    8550 2200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E4C9969
+P 8950 2200
+F 0 "R?" V 9157 2200 50  0000 C CNN
+F 1 "10k" V 9066 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8880 2200 50  0001 C CNN
+F 3 "~" H 8950 2200 50  0001 C CNN
+	1    8950 2200
+	0    1    -1   0   
+$EndComp
+Connection ~ 9150 2200
+Wire Wire Line
+	8700 2200 8800 2450
+Wire Wire Line
+	8800 2200 8700 2450
+Wire Wire Line
+	8700 2450 8700 3250
+Wire Wire Line
+	8800 2450 8800 3250
+Wire Wire Line
+	9150 2200 9450 2200
+Wire Wire Line
+	8350 2650 9150 2650
+Wire Wire Line
+	9150 2250 9150 2200
+Wire Wire Line
+	8350 1850 9150 1850
+$Comp
+L Device:R R?
+U 1 1 5E4C9332
+P 9150 2000
+F 0 "R?" V 9357 2000 50  0000 C CNN
+F 1 "1k" V 9266 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9080 2000 50  0001 C CNN
+F 3 "~" H 9150 2000 50  0001 C CNN
+	1    9150 2000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E4C8F84
+P 8350 2000
+F 0 "R?" V 8557 2000 50  0000 C CNN
+F 1 "1k" V 8466 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8280 2000 50  0001 C CNN
+F 3 "~" H 8350 2000 50  0001 C CNN
+	1    8350 2000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9150 2200 9150 2150
+Wire Wire Line
+	8350 2150 8350 2200
+Wire Wire Line
+	8650 2450 8700 2450
+Connection ~ 8700 2450
+Wire Wire Line
+	8400 2200 8350 2200
+Connection ~ 8350 2200
+Wire Wire Line
+	8350 2200 8350 2250
+Wire Wire Line
+	9100 2200 9150 2200
+Wire Wire Line
+	8800 2450 8850 2450
+Connection ~ 8800 2450
+Text GLabel 9450 2200 2    50   Input ~ 0
+DISABLE
+Wire Wire Line
+	8000 1850 8350 1850
+Connection ~ 8350 1850
+Wire Wire Line
+	8350 2650 8000 2650
+Connection ~ 8350 2650
 $EndSCHEMATC
