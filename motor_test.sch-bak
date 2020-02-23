@@ -1,9 +1,9 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -12,994 +12,296 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
-Text GLabel 3900 2650 2    50   Output ~ 0
-VOUT
+Connection ~ 5550 3600
+Connection ~ 5550 4400
+Connection ~ 6100 3150
+Connection ~ 6100 3600
+Connection ~ 6200 4400
+Connection ~ 6500 2550
+Connection ~ 7900 4400
+Connection ~ 8000 3350
 Wire Wire Line
-	3650 3750 3650 3700
+	5050 3600 5550 3600
 Wire Wire Line
-	1500 2400 1500 2550
+	5050 3900 5050 3600
+Wire Wire Line
+	5050 4000 5050 4400
+Wire Wire Line
+	5050 4400 5550 4400
+Wire Wire Line
+	5550 3600 5550 3650
+Wire Wire Line
+	5550 3600 6100 3600
+Wire Wire Line
+	5550 4250 5550 4400
+Wire Wire Line
+	5550 4400 5550 4500
+Wire Wire Line
+	5550 4400 6200 4400
+Wire Wire Line
+	6000 2450 6200 2450
+Wire Wire Line
+	6000 2500 6000 2450
+Wire Wire Line
+	6000 2600 6000 2650
+Wire Wire Line
+	6000 2650 6200 2650
+Wire Wire Line
+	6100 2750 6100 3150
+Wire Wire Line
+	6100 3150 6100 3600
+Wire Wire Line
+	6100 3600 6400 3600
+Wire Wire Line
+	6200 3250 6200 3800
+Wire Wire Line
+	6200 3250 6550 3250
+Wire Wire Line
+	6200 3800 6400 3800
+Wire Wire Line
+	6200 3900 6400 3900
+Wire Wire Line
+	6200 4400 6200 3900
+Wire Wire Line
+	6300 3700 6300 3350
+Wire Wire Line
+	6400 3700 6300 3700
+Wire Wire Line
+	6500 2550 6500 2450
+Wire Wire Line
+	6500 2550 6500 2650
+Wire Wire Line
+	6750 2650 6850 2650
+Wire Wire Line
+	6850 2550 6500 2550
+Wire Wire Line
+	6850 2750 6100 2750
+Wire Wire Line
+	6850 3250 7000 3250
+Wire Wire Line
+	6850 4100 6850 4250
+Wire Wire Line
+	7000 3250 7150 3600
+Wire Wire Line
+	7000 3900 7050 3900
+Wire Wire Line
+	7050 3600 7000 3600
+Wire Wire Line
+	7050 3900 7050 4100
+Wire Wire Line
+	7050 4100 6850 4100
+Wire Wire Line
+	7150 3600 7200 3600
+Wire Wire Line
+	7150 3900 7150 4100
+Wire Wire Line
+	7150 4100 7350 4100
+Wire Wire Line
+	7200 3250 7050 3600
+Wire Wire Line
+	7200 3900 7150 3900
+Wire Wire Line
+	7350 4100 7350 4250
+Wire Wire Line
+	7400 2550 8000 2550
+Wire Wire Line
+	7400 2750 8350 2750
+Wire Wire Line
+	7400 3250 7200 3250
+Wire Wire Line
+	7800 3600 7900 3600
+Wire Wire Line
+	7800 3700 8000 3700
+Wire Wire Line
+	7800 3800 8100 3800
+Wire Wire Line
+	7800 3900 7900 3900
+Wire Wire Line
+	7900 3150 6100 3150
+Wire Wire Line
+	7900 3600 7900 3150
+Wire Wire Line
+	7900 3900 7900 4400
+Wire Wire Line
+	7900 4400 6200 4400
+Wire Wire Line
+	8000 2550 8000 3350
+Wire Wire Line
+	8000 3350 6300 3350
+Wire Wire Line
+	8000 3700 8000 3350
+Wire Wire Line
+	8100 3250 7700 3250
+Wire Wire Line
+	8100 3250 8100 3800
+Wire Wire Line
+	8350 2750 8350 4400
+Wire Wire Line
+	8350 4400 7900 4400
+Text Label 6150 2450 2    50   ~ 0
+fwd
+Text Label 6150 2650 2    50   ~ 0
+rev
+Text Label 6400 3800 2    50   ~ 0
+fwd
+Text Label 6850 2650 2    50   ~ 0
+reset
+Text Label 7800 3800 0    50   ~ 0
+rev
 $Comp
-L power:GNDREF #PWR01
-U 1 1 5E804203
-P 1500 2650
-F 0 "#PWR01" H 1500 2400 50  0001 C CNN
-F 1 "GNDREF" H 1505 2477 50  0000 C CNN
-F 2 "" H 1500 2650 50  0001 C CNN
-F 3 "" H 1500 2650 50  0001 C CNN
-	1    1500 2650
+L power:GNDREF #PWR0101
+U 1 1 5EA2853B
+P 5550 4500
+F 0 "#PWR0101" H 5550 4250 50  0001 C CNN
+F 1 "GNDREF" H 5555 4327 50  0000 C CNN
+F 2 "" H 5550 4500 50  0001 C CNN
+F 3 "" H 5550 4500 50  0001 C CNN
+	1    5550 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR02
-U 1 1 5E803CD1
-P 3650 3750
-F 0 "#PWR02" H 3650 3500 50  0001 C CNN
-F 1 "GNDREF" H 3655 3577 50  0000 C CNN
-F 2 "" H 3650 3750 50  0001 C CNN
-F 3 "" H 3650 3750 50  0001 C CNN
-	1    3650 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 3700 3350 3700
-Connection ~ 3650 3700
-Wire Wire Line
-	3650 3250 3650 3700
-Wire Wire Line
-	3350 3700 3200 3700
-Connection ~ 3350 3700
-Wire Wire Line
-	3350 3550 3350 3700
-Wire Wire Line
-	3200 3700 2350 3700
-Connection ~ 3200 3700
-Wire Wire Line
-	3200 3600 3200 3700
-Wire Wire Line
-	2350 3700 2050 3700
-Connection ~ 2350 3700
-Wire Wire Line
-	2350 3150 2350 3700
-Wire Wire Line
-	2050 3700 2050 3650
-Wire Wire Line
-	3850 3700 3650 3700
-Wire Wire Line
-	3850 3400 3850 3700
-Wire Wire Line
-	3650 1750 3350 1750
-Connection ~ 3650 1750
-Wire Wire Line
-	3650 2100 3650 1750
-Wire Wire Line
-	3350 1750 3200 1750
-Connection ~ 3350 1750
-Wire Wire Line
-	3350 1800 3350 1750
-Wire Wire Line
-	3200 1750 2350 1750
-Connection ~ 3200 1750
-Wire Wire Line
-	3200 1800 3200 1750
-Wire Wire Line
-	2350 1750 2050 1750
-Connection ~ 2350 1750
-Wire Wire Line
-	2350 2250 2350 1750
-Wire Wire Line
-	2050 1750 1500 1750
-Connection ~ 2050 1750
-Wire Wire Line
-	2050 2000 2050 1750
-Wire Wire Line
-	1500 1750 1500 1800
-Wire Wire Line
-	3850 1750 3650 1750
-Wire Wire Line
-	3850 2100 3850 1750
-Wire Wire Line
-	3850 2650 3850 2900
-Wire Wire Line
-	3850 2650 3900 2650
-Connection ~ 3850 2650
-Wire Wire Line
-	3650 2650 3650 2850
-Connection ~ 3650 2650
-Wire Wire Line
-	3650 2650 3850 2650
-Wire Wire Line
-	3650 2500 3650 2650
-Wire Wire Line
-	3200 3050 3200 3200
-Connection ~ 3200 3050
-Wire Wire Line
-	3350 3050 3350 3250
-Connection ~ 3350 3050
-Wire Wire Line
-	3350 3050 3200 3050
-Connection ~ 3350 2300
-Connection ~ 3200 2300
-Wire Wire Line
-	3200 2300 3350 2300
-Wire Wire Line
-	3350 2300 3350 2100
-Wire Wire Line
-	3200 2200 3200 2300
-Connection ~ 2900 2000
-Wire Wire Line
-	2900 2450 2900 2000
-Wire Wire Line
-	2800 2000 2900 2000
-Connection ~ 2900 3400
-Wire Wire Line
-	2900 3150 2900 3400
-Wire Wire Line
-	2800 3400 2900 3400
-Wire Wire Line
-	2500 2700 2500 3400
-Connection ~ 2500 2700
-Wire Wire Line
-	2350 2700 2350 2750
-Connection ~ 2350 2700
-Wire Wire Line
-	2350 2700 2500 2700
-Wire Wire Line
-	2500 2000 2500 2700
-Wire Wire Line
-	2350 2650 2350 2700
-Wire Wire Line
-	2050 2950 2050 3150
-Connection ~ 2050 2950
-Wire Wire Line
-	2050 2450 2050 2950
-Connection ~ 2050 2450
-Wire Wire Line
-	2050 2300 2050 2450
-$Comp
-L pspice:VSOURCE V1
-U 1 1 5E7CE4FF
-P 1500 2100
-F 0 "V1" H 1728 2146 50  0000 L CNN
-F 1 "30" H 1728 2055 50  0000 L CNN
-F 2 "" H 1500 2100 50  0001 C CNN
-F 3 "~" H 1500 2100 50  0001 C CNN
-	1    1500 2100
+L Connector:Conn_01x01_Male J2
+U 1 1 5E53776C
+P 6550 2650
+F 0 "J2" H 6658 2831 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6658 2740 50  0000 C CNN
+F 2 "" H 6550 2650 50  0001 C CNN
+F 3 "~" H 6550 2650 50  0001 C CNN
+	1    6550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
-U 1 1 5E7CBF57
-P 3350 3400
-F 0 "R9" H 3280 3354 50  0000 R CNN
-F 1 "4.7k" H 3280 3445 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3280 3400 50  0001 C CNN
-F 3 "~" H 3350 3400 50  0001 C CNN
-	1    3350 3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5E7CB92E
-P 3350 1950
-F 0 "R8" H 3280 1904 50  0000 R CNN
-F 1 "4.7k" H 3280 1995 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3280 1950 50  0001 C CNN
-F 3 "~" H 3350 1950 50  0001 C CNN
-	1    3350 1950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5E7CA92D
-P 2650 3400
-F 0 "R5" V 2750 3400 50  0000 C CNN
-F 1 "33k" V 2850 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2580 3400 50  0001 C CNN
-F 3 "~" H 2650 3400 50  0001 C CNN
-	1    2650 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5E7C9FB0
-P 2900 2600
-F 0 "R6" H 2970 2646 50  0000 L CNN
-F 1 "10k" H 2970 2555 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2830 2600 50  0001 C CNN
-F 3 "~" H 2900 2600 50  0001 C CNN
-	1    2900 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5E7C9A33
-P 2650 2000
-F 0 "R4" V 2857 2000 50  0000 C CNN
-F 1 "33k" V 2766 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2580 2000 50  0001 C CNN
-F 3 "~" H 2650 2000 50  0001 C CNN
-	1    2650 2000
+L Device:R R25
+U 1 1 5E9FA0B7
+P 6700 3250
+F 0 "R25" V 6493 3250 50  0000 C CNN
+F 1 "100k" V 6584 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6630 3250 50  0001 C CNN
+F 3 "~" H 6700 3250 50  0001 C CNN
+	1    6700 3250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R2
-U 1 1 5E7C96D7
-P 2050 2150
-F 0 "R2" H 1980 2104 50  0000 R CNN
-F 1 "33k" H 1980 2195 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1980 2150 50  0001 C CNN
-F 3 "~" H 2050 2150 50  0001 C CNN
-	1    2050 2150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5E7C7B37
-P 1750 3750
-F 0 "R1" V 1543 3750 50  0000 C CNN
-F 1 "100k" V 1634 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1680 3750 50  0001 C CNN
-F 3 "~" H 1750 3750 50  0001 C CNN
-	1    1750 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4148 D2
-U 1 1 5E7C6F4B
-P 3850 3250
-F 0 "D2" V 3804 3329 50  0000 L CNN
-F 1 "1N4148" V 3895 3329 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 3075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3850 3250 50  0001 C CNN
-	1    3850 3250
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148 D1
-U 1 1 5E7C5EF7
-P 3850 2250
-F 0 "D1" V 3804 2329 50  0000 L CNN
-F 1 "1N4148" V 3895 2329 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 2075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3850 2250 50  0001 C CNN
-	1    3850 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_BJT:BC807 Q5
-U 1 1 5E7C55FB
-P 3100 2000
-F 0 "Q5" H 2900 1950 50  0000 L CNN
-F 1 "BC807" H 2900 1850 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3300 1925 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 3100 2000 50  0001 L CNN
-	1    3100 2000
-	1    0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q6
-U 1 1 5E7C5075
-P 3100 3400
-F 0 "Q6" H 2950 3300 50  0000 L CNN
-F 1 "BC817" H 2950 3200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3300 3325 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 3100 3400 50  0001 L CNN
-	1    3100 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q4
-U 1 1 5E7C48C0
-P 2800 2950
-F 0 "Q4" H 2650 2850 50  0000 L CNN
-F 1 "BC817" H 2650 2750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 2875 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 2800 2950 50  0001 L CNN
-	1    2800 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q1
-U 1 1 5E7C3C3D
-P 1950 3450
-F 0 "Q1" H 1800 3350 50  0000 L CNN
-F 1 "BC817" H 1800 3250 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2150 3375 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 1950 3450 50  0001 L CNN
-	1    1950 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q2
-U 1 1 5E7C364B
-P 2250 2450
-F 0 "Q2" H 2100 2350 50  0000 L CNN
-F 1 "BC817" H 2100 2250 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2450 2375 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 2250 2450 50  0001 L CNN
-	1    2250 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC807 Q3
-U 1 1 5E7C2F6D
-P 2250 2950
-F 0 "Q3" H 2050 2900 50  0000 L CNN
-F 1 "BC807" H 2050 2800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2450 2875 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 2250 2950 50  0001 L CNN
-	1    2250 2950
-	1    0    0    1   
-$EndComp
-$Comp
-L Transistor_FET:FR024N Q8
-U 1 1 5E7BD0A7
-P 3550 3050
-F 0 "Q8" H 3400 3000 50  0000 L CNN
-F 1 "FR024N" H 3250 3200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3750 2975 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55" H 3550 3050 50  0001 L CNN
-	1    3550 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:FR9024N Q7
-U 1 1 5E7BCB59
-P 3550 2300
-F 0 "Q7" H 3400 2350 50  0000 L CNN
-F 1 "FR9024N" H 3250 2450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3750 2225 50  0001 L CIN
-F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/674885/KEXIN/FR9024N/+45489JVHDVpOcpUEBvwV+/datasheet.pdf" V 3550 2300 50  0001 L CNN
-	1    3550 2300
-	1    0    0    1   
-$EndComp
-Text GLabel 2600 2450 1    50   Input ~ 0
-DISABLE
-Text GLabel 4400 2650 0    50   Output ~ 0
-VOUT
-Wire Wire Line
-	4650 3700 4950 3700
-Connection ~ 4650 3700
-Wire Wire Line
-	4650 3250 4650 3700
-Wire Wire Line
-	4950 3700 5100 3700
-Connection ~ 4950 3700
-Wire Wire Line
-	4950 3550 4950 3700
-Wire Wire Line
-	5100 3700 5950 3700
-Connection ~ 5100 3700
-Wire Wire Line
-	5100 3600 5100 3700
-Wire Wire Line
-	5950 3700 6250 3700
-Connection ~ 5950 3700
-Wire Wire Line
-	5950 3150 5950 3700
-Wire Wire Line
-	6250 3700 6250 3600
-Wire Wire Line
-	4450 3700 4650 3700
-Wire Wire Line
-	4450 3400 4450 3700
-Wire Wire Line
-	4650 1750 4950 1750
-Connection ~ 4650 1750
-Wire Wire Line
-	4650 2100 4650 1750
-Wire Wire Line
-	4950 1750 5100 1750
-Connection ~ 4950 1750
-Wire Wire Line
-	4950 1800 4950 1750
-Wire Wire Line
-	5100 1750 5950 1750
-Connection ~ 5100 1750
-Wire Wire Line
-	5100 1800 5100 1750
-Wire Wire Line
-	5950 1750 6250 1750
-Connection ~ 5950 1750
-Wire Wire Line
-	5950 2250 5950 1750
-Wire Wire Line
-	4450 1750 4650 1750
-Wire Wire Line
-	4450 2650 4450 2900
-Wire Wire Line
-	4450 2650 4400 2650
-Connection ~ 4450 2650
-Wire Wire Line
-	4650 2650 4650 2850
-Connection ~ 4650 2650
-Wire Wire Line
-	4650 2650 4450 2650
-Wire Wire Line
-	4650 2500 4650 2650
-Wire Wire Line
-	5100 3050 5100 3200
-Connection ~ 5100 3050
-Wire Wire Line
-	4950 3050 4950 3250
-Connection ~ 4950 3050
-Wire Wire Line
-	4950 3050 5100 3050
-Connection ~ 4950 2300
-Connection ~ 5100 2300
-Wire Wire Line
-	5100 2300 4950 2300
-Wire Wire Line
-	4950 2300 4950 2100
-Wire Wire Line
-	5100 2200 5100 2300
-Connection ~ 5400 2000
-Wire Wire Line
-	5400 2450 5400 2000
-Wire Wire Line
-	5500 2000 5400 2000
-Connection ~ 5400 3400
-Wire Wire Line
-	5400 3150 5400 3400
-Wire Wire Line
-	5500 3400 5400 3400
-Connection ~ 5800 2700
-Wire Wire Line
-	5950 2700 5950 2750
-Connection ~ 5950 2700
-Wire Wire Line
-	5950 2700 5800 2700
-Wire Wire Line
-	5800 2000 5800 2700
-Wire Wire Line
-	5950 2650 5950 2700
-Wire Wire Line
-	6250 2950 6250 3150
-Connection ~ 6250 2950
-Wire Wire Line
-	6250 2450 6250 2950
-Connection ~ 6250 2450
-$Comp
-L Device:R R11
-U 1 1 5E56E40D
-P 4950 3400
-F 0 "R11" H 4880 3354 50  0000 R CNN
-F 1 "4.7k" H 4880 3445 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4880 3400 50  0001 C CNN
-F 3 "~" H 4950 3400 50  0001 C CNN
-	1    4950 3400
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 5E56E417
-P 4950 1950
-F 0 "R10" H 4880 1904 50  0000 R CNN
-F 1 "4.7k" H 4880 1995 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4880 1950 50  0001 C CNN
-F 3 "~" H 4950 1950 50  0001 C CNN
-	1    4950 1950
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 5E56E421
-P 5650 3400
-F 0 "R15" V 5750 3400 50  0000 C CNN
-F 1 "33k" V 5850 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5580 3400 50  0001 C CNN
-F 3 "~" H 5650 3400 50  0001 C CNN
-	1    5650 3400
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 5E56E42B
-P 5400 2600
-F 0 "R13" H 5470 2646 50  0000 L CNN
-F 1 "10k" H 5470 2555 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5330 2600 50  0001 C CNN
-F 3 "~" H 5400 2600 50  0001 C CNN
-	1    5400 2600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 5E56E435
-P 5650 2000
-F 0 "R14" V 5857 2000 50  0000 C CNN
-F 1 "33k" V 5766 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5580 2000 50  0001 C CNN
-F 3 "~" H 5650 2000 50  0001 C CNN
-	1    5650 2000
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R R16
-U 1 1 5E56E43F
-P 6250 2150
-F 0 "R16" H 6180 2104 50  0000 R CNN
-F 1 "33k" H 6180 2195 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 6180 2150 50  0001 C CNN
-F 3 "~" H 6250 2150 50  0001 C CNN
-	1    6250 2150
-	1    0    0    1   
-$EndComp
-$Comp
-L Diode:1N4148 D4
-U 1 1 5E56E453
-P 4450 3250
-F 0 "D4" V 4404 3329 50  0000 L CNN
-F 1 "1N4148" V 4495 3329 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4450 3075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4450 3250 50  0001 C CNN
-	1    4450 3250
-	0    -1   1    0   
-$EndComp
-$Comp
-L Diode:1N4148 D3
-U 1 1 5E56E45D
-P 4450 2250
-F 0 "D3" V 4404 2329 50  0000 L CNN
-F 1 "1N4148" V 4495 2329 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4450 2075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4450 2250 50  0001 C CNN
-	1    4450 2250
-	0    -1   1    0   
-$EndComp
-$Comp
-L Transistor_BJT:BC807 Q11
-U 1 1 5E56E467
-P 5200 2000
-F 0 "Q11" H 5000 1950 50  0000 L CNN
-F 1 "BC807" H 5000 1850 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 1925 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 5200 2000 50  0001 L CNN
-	1    5200 2000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q12
-U 1 1 5E56E471
-P 5200 3400
-F 0 "Q12" H 5050 3300 50  0000 L CNN
-F 1 "BC817" H 5050 3200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 3325 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 5200 3400 50  0001 L CNN
-	1    5200 3400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q13
-U 1 1 5E56E47B
-P 5500 2950
-F 0 "Q13" H 5350 2850 50  0000 L CNN
-F 1 "BC817" H 5350 2750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 2875 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 5500 2950 50  0001 L CNN
-	1    5500 2950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q16
-U 1 1 5E56E485
-P 6350 3400
-F 0 "Q16" H 6200 3250 50  0000 L CNN
-F 1 "BC817" H 6200 3150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6550 3325 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 6350 3400 50  0001 L CNN
-	1    6350 3400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q14
-U 1 1 5E56E48F
-P 6050 2450
-F 0 "Q14" H 5850 2350 50  0000 L CNN
-F 1 "BC817" H 5850 2250 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6250 2375 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 6050 2450 50  0001 L CNN
-	1    6050 2450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC807 Q15
-U 1 1 5E56E499
-P 6050 2950
-F 0 "Q15" H 5850 2900 50  0000 L CNN
-F 1 "BC807" H 5850 2800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6250 2875 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 6050 2950 50  0001 L CNN
-	1    6050 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transistor_FET:FR024N Q10
-U 1 1 5E56E4A3
-P 4750 3050
-F 0 "Q10" H 4600 3000 50  0000 L CNN
-F 1 "FR024N" H 4500 3200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 4950 2975 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55" H 4750 3050 50  0001 L CNN
-	1    4750 3050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:FR9024N Q9
-U 1 1 5E56E4AD
-P 4750 2300
-F 0 "Q9" H 4600 2350 50  0000 L CNN
-F 1 "FR9024N" H 4450 2450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 4950 2225 50  0001 L CIN
-F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/674885/KEXIN/FR9024N/+45489JVHDVpOcpUEBvwV+/datasheet.pdf" V 4750 2300 50  0001 L CNN
-	1    4750 2300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4450 2100 4450 1750
-Wire Wire Line
-	4450 1750 3850 1750
-Connection ~ 4450 1750
-Connection ~ 3850 1750
-Wire Wire Line
-	3850 3700 4450 3700
-Connection ~ 3850 3700
-Connection ~ 4450 3700
-Wire Wire Line
-	2600 2500 2600 2450
-Wire Wire Line
-	3200 2300 3200 2450
-Wire Wire Line
-	3200 2750 3200 3050
-Wire Wire Line
-	2600 2800 2600 2950
-$Comp
-L Device:R R3
-U 1 1 5E7CA4DB
-P 2600 2650
-F 0 "R3" H 2400 2550 50  0000 L CNN
-F 1 "100k" H 2350 2650 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2530 2650 50  0001 C CNN
-F 3 "~" H 2600 2650 50  0001 C CNN
-	1    2600 2650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 5E7E25A5
-P 3200 2600
-F 0 "R7" H 3130 2554 50  0000 R CNN
-F 1 "2.7k" H 3130 2645 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3130 2600 50  0001 C CNN
-F 3 "~" H 3200 2600 50  0001 C CNN
-	1    3200 2600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5100 2300 5100 2450
-Wire Wire Line
-	5100 2750 5100 3050
-$Comp
-L Device:R R12
-U 1 1 5E56E3E5
-P 5100 2600
-F 0 "R12" H 5030 2554 50  0000 R CNN
-F 1 "2.7k" H 5030 2645 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5030 2600 50  0001 C CNN
-F 3 "~" H 5100 2600 50  0001 C CNN
-	1    5100 2600
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5800 2700 5800 3400
-Wire Wire Line
-	5700 2800 5700 2950
-Wire Wire Line
-	5700 2800 2600 2800
-Connection ~ 2600 2800
-Wire Wire Line
-	4450 2400 4450 2650
-Wire Wire Line
-	3850 2400 3850 2650
-$Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 5E6552D1
-P 4100 3100
-F 0 "J4" V 4208 2912 50  0000 R CNN
-F 1 "Conn_01x02_Male" V 4163 2912 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 3100 50  0001 C CNN
-F 3 "~" H 4100 3100 50  0001 C CNN
-	1    4100 3100
+L Device:R R24
+U 1 1 5E9F96FA
+P 7550 3250
+F 0 "R24" V 7343 3250 50  0000 C CNN
+F 1 "100k" V 7434 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7480 3250 50  0001 C CNN
+F 3 "~" H 7550 3250 50  0001 C CNN
+	1    7550 3250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4100 2900 3850 2900
-Connection ~ 3850 2900
-Wire Wire Line
-	3850 2900 3850 3100
-Wire Wire Line
-	4200 2900 4450 2900
-Connection ~ 4450 2900
-Wire Wire Line
-	4450 2900 4450 3100
 $Comp
-L Connector:Conn_01x01_Male J3
-U 1 1 5E65E8D6
-P 2800 2450
-F 0 "J3" H 2772 2428 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 2772 2473 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2800 2450 50  0001 C CNN
-F 3 "~" H 2800 2450 50  0001 C CNN
-	1    2800 2450
-	-1   0    0    1   
+L Diode:1N4148 D?
+U 1 1 5E529F23
+P 6350 2450
+AR Path="/5EA68A27/5E529F23" Ref="D?"  Part="1" 
+AR Path="/5E529F23" Ref="D1"  Part="1" 
+F 0 "D1" V 6304 2529 50  0000 L CNN
+F 1 "1N4148" V 6395 2529 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6350 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6350 2450 50  0001 C CNN
+	1    6350 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5E529F32
+P 6350 2650
+AR Path="/5EA68A27/5E529F32" Ref="D?"  Part="1" 
+AR Path="/5E529F32" Ref="D2"  Part="1" 
+F 0 "D2" V 6300 2500 50  0000 L CNN
+F 1 "1N4148" V 6400 2300 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6350 2475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6350 2650 50  0001 C CNN
+	1    6350 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5EA28551
+P 4850 3900
+F 0 "J5" H 4958 3989 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4958 3990 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4850 3900 50  0001 C CNN
+F 3 "~" H 4850 3900 50  0001 C CNN
+	1    4850 3900
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J1
-U 1 1 5E65FDD3
-P 800 2050
-F 0 "J1" H 908 2139 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 908 2140 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 800 2050 50  0001 C CNN
-F 3 "~" H 800 2050 50  0001 C CNN
-	1    800  2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 2050 1000 1750
-Wire Wire Line
-	1000 1750 1500 1750
-Connection ~ 1500 1750
-Wire Wire Line
-	1000 2150 1000 2550
-Wire Wire Line
-	1000 2550 1500 2550
-Connection ~ 1500 2550
-Wire Wire Line
-	1500 2550 1500 2650
-$Comp
-L Transistor_BJT:BC817 Q17
-U 1 1 5E4C4BC3
-P 8150 2350
-F 0 "Q17" H 8300 2450 50  0000 L CNN
-F 1 "BC817" H 8350 2350 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8350 2275 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 8150 2350 50  0001 L CNN
-	1    8150 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q18
-U 1 1 5E4C4F85
-P 8750 2350
-F 0 "Q18" H 8900 2450 50  0000 L CNN
-F 1 "BC817" H 8950 2350 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8950 2275 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 8750 2350 50  0001 L CNN
-	1    8750 2350
+U 1 1 5E52D5E3
+P 5800 2500
+F 0 "J1" H 5908 2589 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5908 2590 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5800 2500 50  0001 C CNN
+F 3 "~" H 5800 2500 50  0001 C CNN
+	1    5800 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R19
-U 1 1 5E4C96B6
-P 8250 2100
-F 0 "R19" V 8050 2100 50  0000 C CNN
-F 1 "10k" V 8150 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 8180 2100 50  0001 C CNN
-F 3 "~" H 8250 2100 50  0001 C CNN
-	1    8250 2100
-	0    -1   1    0   
+L Motor:Motor_DC M1
+U 1 1 5E5BB913
+P 7150 4250
+F 0 "M1" V 6855 4200 50  0000 C CNN
+F 1 "Motor_DC" V 6946 4200 50  0000 C CNN
+F 2 "" H 7150 4160 50  0001 C CNN
+F 3 "~" H 7150 4160 50  0001 C CNN
+	1    7150 4250
+	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R20
-U 1 1 5E4C9969
-P 8650 2100
-F 0 "R20" V 8857 2100 50  0000 C CNN
-F 1 "10k" V 8766 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 8580 2100 50  0001 C CNN
-F 3 "~" H 8650 2100 50  0001 C CNN
-	1    8650 2100
-	0    1    -1   0   
-$EndComp
-Connection ~ 8850 2100
-Wire Wire Line
-	8400 2100 8500 2350
-Wire Wire Line
-	8500 2100 8400 2350
-Wire Wire Line
-	8400 2350 8400 2700
-Wire Wire Line
-	8850 2100 8950 2100
-Wire Wire Line
-	8050 2550 8850 2550
-Wire Wire Line
-	8850 2150 8850 2100
-Wire Wire Line
-	8050 1750 8850 1750
-$Comp
-L Device:R R18
-U 1 1 5E4C9332
-P 8850 1900
-F 0 "R18" V 9057 1900 50  0000 C CNN
-F 1 "1k" V 8966 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 8780 1900 50  0001 C CNN
-F 3 "~" H 8850 1900 50  0001 C CNN
-	1    8850 1900
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R17
-U 1 1 5E4C8F84
-P 8050 1900
-F 0 "R17" V 7850 1900 50  0000 C CNN
-F 1 "1k" V 7950 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 7980 1900 50  0001 C CNN
-F 3 "~" H 8050 1900 50  0001 C CNN
-	1    8050 1900
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	8850 2100 8850 2050
-Wire Wire Line
-	8050 2050 8050 2100
-Wire Wire Line
-	8350 2350 8400 2350
-Connection ~ 8400 2350
-Wire Wire Line
-	8100 2100 8050 2100
-Connection ~ 8050 2100
-Wire Wire Line
-	8050 2100 8050 2150
-Wire Wire Line
-	8800 2100 8850 2100
-Wire Wire Line
-	8500 2350 8550 2350
-Connection ~ 8500 2350
-Text GLabel 8950 2100 2    50   Input ~ 0
-DISABLE
-Connection ~ 8050 1750
-Wire Wire Line
-	8050 2550 7700 2550
-Connection ~ 8050 2550
-$Comp
-L Device:R R23
-U 1 1 5E4E3735
-P 6550 3700
-F 0 "R23" V 6343 3700 50  0000 C CNN
-F 1 "100k" V 6434 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 6480 3700 50  0001 C CNN
-F 3 "~" H 6550 3700 50  0001 C CNN
-	1    6550 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4148 D5
-U 1 1 5E564329
-P 8350 2950
-F 0 "D5" V 8304 3029 50  0000 L CNN
-F 1 "1N4148" V 8395 3029 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8350 2775 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8350 2950 50  0001 C CNN
-	1    8350 2950
-	0    -1   1    0   
-$EndComp
-Text GLabel 8650 3100 3    50   Input ~ 0
-REV
-Text GLabel 8350 3100 3    50   Input ~ 0
-FWD
-Text GLabel 8400 2700 0    50   Input ~ 0
-RST
-$Comp
-L power:GNDREF #PWR03
-U 1 1 5E5B7CE7
-P 7700 2550
-F 0 "#PWR03" H 7700 2300 50  0001 C CNN
-F 1 "GNDREF" H 7705 2377 50  0000 C CNN
-F 2 "" H 7700 2550 50  0001 C CNN
-F 3 "" H 7700 2550 50  0001 C CNN
-	1    7700 2550
+L pspice:VSOURCE V2
+U 1 1 5EA28547
+P 5550 3950
+F 0 "V2" H 5778 3996 50  0000 L CNN
+F 1 "30" H 5778 3905 50  0000 L CNN
+F 2 "" H 5550 3950 50  0001 C CNN
+F 3 "~" H 5550 3950 50  0001 C CNN
+	1    5550 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 4300 2    50   Input ~ 0
-REV
-Text GLabel 4200 4300 0    50   Input ~ 0
-FWD
-$Comp
-L Connector:Conn_01x02_Male J2
-U 1 1 5E61E4E8
-P 4200 4500
-F 0 "J2" V 4308 4312 50  0000 R CNN
-F 1 "Conn_01x02_Male" V 4353 4544 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4200 4500 50  0001 C CNN
-F 3 "~" H 4200 4500 50  0001 C CNN
-	1    4200 4500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2050 3150 1600 3150
-Wire Wire Line
-	1600 3150 1600 3200
-Wire Wire Line
-	1600 4000 4200 4000
-Connection ~ 2050 3150
-Wire Wire Line
-	2050 3150 2050 3250
-Wire Wire Line
-	6550 4000 6550 3850
-Wire Wire Line
-	6250 3150 6800 3150
-Wire Wire Line
-	6800 3150 6800 3200
-Wire Wire Line
-	6800 4100 4300 4100
-Connection ~ 6250 3150
-Wire Wire Line
-	6250 3150 6250 3200
-Wire Wire Line
-	1750 3450 1750 3600
-Wire Wire Line
-	6550 3400 6550 3550
-Wire Wire Line
-	1750 4100 1750 3900
-Wire Wire Line
-	4200 4300 4200 4000
-Connection ~ 4200 4000
-Wire Wire Line
-	4200 4000 6550 4000
-Wire Wire Line
-	4300 4300 4300 4100
-Connection ~ 4300 4100
-Wire Wire Line
-	4300 4100 1750 4100
-$Comp
-L Device:R R22
-U 1 1 5E8374F9
-P 6800 3350
-F 0 "R22" V 6593 3350 50  0000 C CNN
-F 1 "100k" V 6684 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 6730 3350 50  0001 C CNN
-F 3 "~" H 6800 3350 50  0001 C CNN
-	1    6800 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6800 3500 6800 4100
-$Comp
-L Device:R R21
-U 1 1 5E837D0E
-P 1600 3350
-F 0 "R21" V 1393 3350 50  0000 C CNN
-F 1 "100k" V 1484 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1530 3350 50  0001 C CNN
-F 3 "~" H 1600 3350 50  0001 C CNN
-	1    1600 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1600 3500 1600 4000
-Wire Wire Line
-	8500 2800 8350 2800
-Connection ~ 8500 2800
-Wire Wire Line
-	8500 2350 8500 2800
-$Comp
-L Diode:1N4148 D6
-U 1 1 5E5638BD
-P 8650 2950
-F 0 "D6" V 8600 2800 50  0000 L CNN
-F 1 "1N4148" V 8700 2600 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8650 2775 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8650 2950 50  0001 C CNN
-	1    8650 2950
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	8500 2800 8650 2800
-Connection ~ 6250 1750
-Wire Wire Line
-	6250 1750 8050 1750
-Wire Wire Line
-	6250 2300 6250 2450
-Wire Wire Line
-	6250 1750 6250 2000
+$Sheet
+S 6400 3500 600  500 
+U 5E9B0028
+F0 "H-BRIDGE L" 50
+F1 "h-bridge.sch" 50
+F2 "PWR" I L 6400 3600 50 
+F3 "GND" I L 6400 3900 50 
+F4 "VOUT" O R 7000 3900 50 
+F5 "DISABLE" I L 6400 3700 50 
+F6 "DIRECTION" I L 6400 3800 50 
+F7 "FLOP" O R 7000 3600 50 
+$EndSheet
+$Sheet
+S 7200 3500 600  500 
+U 5E9E5961
+F0 "H-BRIDGE R" 50
+F1 "h-bridge.sch" 50
+F2 "PWR" I R 7800 3600 50 
+F3 "GND" I R 7800 3900 50 
+F4 "VOUT" O L 7200 3900 50 
+F5 "DISABLE" I R 7800 3700 50 
+F6 "DIRECTION" I R 7800 3800 50 
+F7 "FLOP" O L 7200 3600 50 
+$EndSheet
+$Sheet
+S 6850 2500 550  350 
+U 5EA68A27
+F0 "bistable direction" 50
+F1 "bistable_direction.sch" 50
+F2 "Q'" O R 7400 2650 50 
+F3 "Q" O R 7400 2550 50 
+F4 "S" I L 6850 2550 50 
+F5 "R" I L 6850 2650 50 
+F6 "GND" I R 7400 2750 50 
+F7 "PWR" I L 6850 2750 50 
+$EndSheet
 $EndSCHEMATC

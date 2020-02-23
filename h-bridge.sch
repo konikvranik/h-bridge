@@ -1,9 +1,9 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -12,151 +12,214 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
+Connection ~ 4400 3200
+Connection ~ 4400 3700
+Connection ~ 4700 2500
+Connection ~ 4700 3450
+Connection ~ 4700 4450
+Connection ~ 4850 3450
+Connection ~ 5250 2750
+Connection ~ 5250 4150
+Connection ~ 5550 2500
+Connection ~ 5550 3050
+Connection ~ 5550 3800
+Connection ~ 5550 4450
+Connection ~ 5700 2500
+Connection ~ 5700 3050
+Connection ~ 5700 3800
+Connection ~ 5700 4450
+Connection ~ 6000 2500
+Connection ~ 6000 3400
+Connection ~ 6000 4450
+Connection ~ 6200 3400
+Wire Wire Line
+	3600 4200 3750 4200
+Wire Wire Line
+	4100 4200 4050 4200
+Wire Wire Line
+	4400 2750 4400 2500
+Wire Wire Line
+	4400 3050 4400 3200
+Wire Wire Line
+	4400 3200 4400 3700
+Wire Wire Line
+	4400 3700 4400 4000
+Wire Wire Line
+	4400 4450 4400 4400
+Wire Wire Line
+	4700 2500 4400 2500
+Wire Wire Line
+	4700 3000 4700 2500
+Wire Wire Line
+	4700 3400 4700 3450
+Wire Wire Line
+	4700 3450 4700 3500
+Wire Wire Line
+	4700 3450 4850 3450
+Wire Wire Line
+	4700 3900 4700 4450
+Wire Wire Line
+	4700 4450 4400 4450
+Wire Wire Line
+	4850 2750 4850 3450
+Wire Wire Line
+	4850 3450 4850 4150
+Wire Wire Line
+	4950 3250 4950 3200
+Wire Wire Line
+	4950 3550 4950 3700
+Wire Wire Line
+	5150 2750 5250 2750
+Wire Wire Line
+	5150 4150 5250 4150
+Wire Wire Line
+	5250 3200 5250 2750
+Wire Wire Line
+	5250 3900 5250 4150
+Wire Wire Line
+	5550 2500 4700 2500
+Wire Wire Line
+	5550 2550 5550 2500
+Wire Wire Line
+	5550 2950 5550 3050
+Wire Wire Line
+	5550 3050 5550 3200
+Wire Wire Line
+	5550 3050 5700 3050
+Wire Wire Line
+	5550 3500 5550 3800
+Wire Wire Line
+	5550 3800 5550 3950
+Wire Wire Line
+	5550 4350 5550 4450
+Wire Wire Line
+	5550 4450 4700 4450
+Wire Wire Line
+	5700 2500 5550 2500
+Wire Wire Line
+	5700 2550 5700 2500
+Wire Wire Line
+	5700 3050 5700 2850
+Wire Wire Line
+	5700 3800 5550 3800
+Wire Wire Line
+	5700 3800 5700 4000
+Wire Wire Line
+	5700 4300 5700 4450
+Wire Wire Line
+	5700 4450 5550 4450
+Wire Wire Line
+	6000 2500 5700 2500
+Wire Wire Line
+	6000 2850 6000 2500
+Wire Wire Line
+	6000 3250 6000 3400
+Wire Wire Line
+	6000 3400 6000 3600
+Wire Wire Line
+	6000 3400 6200 3400
+Wire Wire Line
+	6000 4000 6000 4450
+Wire Wire Line
+	6000 4450 5700 4450
 Wire Wire Line
 	6000 4500 6000 4450
+Wire Wire Line
+	6200 2500 6000 2500
+Wire Wire Line
+	6200 2850 6200 2500
+Wire Wire Line
+	6200 3150 6200 3400
+Wire Wire Line
+	6200 3400 6200 3850
+Wire Wire Line
+	6200 3400 6250 3400
+Wire Wire Line
+	6200 4150 6200 4450
+Wire Wire Line
+	6200 4450 6000 4450
+Text HLabel 3600 4200 0    50   Input ~ 0
+DIRECTION
+Text HLabel 4400 2500 0    50   Input ~ 0
+PWR
+Text HLabel 4400 3900 0    50   Output ~ 0
+FLOP
+Text HLabel 4950 3200 1    50   Input ~ 0
+DISABLE
+Text HLabel 6200 4450 2    50   Input ~ 0
+GND
+Text HLabel 6250 3400 2    50   Output ~ 0
+VOUT
 $Comp
 L power:GNDREF #PWR0102
 U 1 1 5EA52316
 P 6000 4500
 AR Path="/5E9B0028/5EA52316" Ref="#PWR0102"  Part="1" 
 AR Path="/5E9E5961/5EA52316" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 6000 4250 50  0001 C CNN
+F 0 "#PWR0102" H 6000 4250 50  0001 C CNN
 F 1 "GNDREF" H 6005 4327 50  0000 C CNN
 F 2 "" H 6000 4500 50  0001 C CNN
 F 3 "" H 6000 4500 50  0001 C CNN
 	1    6000 4500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6000 4450 5700 4450
-Connection ~ 6000 4450
-Wire Wire Line
-	6000 4000 6000 4450
-Wire Wire Line
-	5700 4450 5550 4450
-Connection ~ 5700 4450
-Wire Wire Line
-	5700 4300 5700 4450
-Wire Wire Line
-	5550 4450 4700 4450
-Connection ~ 5550 4450
-Wire Wire Line
-	5550 4350 5550 4450
-Wire Wire Line
-	4700 4450 4400 4450
-Connection ~ 4700 4450
-Wire Wire Line
-	4700 3900 4700 4450
-Wire Wire Line
-	4400 4450 4400 4400
-Wire Wire Line
-	6200 4450 6000 4450
-Wire Wire Line
-	6200 4150 6200 4450
-Wire Wire Line
-	6000 2500 5700 2500
-Connection ~ 6000 2500
-Wire Wire Line
-	6000 2850 6000 2500
-Wire Wire Line
-	5700 2500 5550 2500
-Connection ~ 5700 2500
-Wire Wire Line
-	5700 2550 5700 2500
-Wire Wire Line
-	5550 2500 4700 2500
-Connection ~ 5550 2500
-Wire Wire Line
-	5550 2550 5550 2500
-Wire Wire Line
-	4700 2500 4400 2500
-Connection ~ 4700 2500
-Wire Wire Line
-	4700 3000 4700 2500
-Wire Wire Line
-	4400 2750 4400 2500
-Wire Wire Line
-	6200 2500 6000 2500
-Wire Wire Line
-	6200 2850 6200 2500
-Connection ~ 6200 3400
-Wire Wire Line
-	6000 3400 6000 3600
-Connection ~ 6000 3400
-Wire Wire Line
-	6000 3400 6200 3400
-Wire Wire Line
-	6000 3250 6000 3400
-Wire Wire Line
-	5550 3800 5550 3950
-Connection ~ 5550 3800
-Wire Wire Line
-	5700 3800 5700 4000
-Connection ~ 5700 3800
-Wire Wire Line
-	5700 3800 5550 3800
-Connection ~ 5700 3050
-Connection ~ 5550 3050
-Wire Wire Line
-	5550 3050 5700 3050
-Wire Wire Line
-	5700 3050 5700 2850
-Wire Wire Line
-	5550 2950 5550 3050
-Connection ~ 5250 2750
-Wire Wire Line
-	5250 3200 5250 2750
-Wire Wire Line
-	5150 2750 5250 2750
-Connection ~ 5250 4150
-Wire Wire Line
-	5250 3900 5250 4150
-Wire Wire Line
-	5150 4150 5250 4150
-Wire Wire Line
-	4850 3450 4850 4150
-Connection ~ 4850 3450
-Wire Wire Line
-	4700 3450 4700 3500
-Connection ~ 4700 3450
-Wire Wire Line
-	4700 3450 4850 3450
-Wire Wire Line
-	4850 2750 4850 3450
-Wire Wire Line
-	4700 3400 4700 3450
-Connection ~ 4400 3700
-Wire Wire Line
-	4400 3200 4400 3700
-Connection ~ 4400 3200
-Wire Wire Line
-	4400 3050 4400 3200
 $Comp
-L Device:R R33
-U 1 1 5E7CBF57
-P 5700 4150
-AR Path="/5E9B0028/5E7CBF57" Ref="R33"  Part="1" 
-AR Path="/5E9E5961/5E7CBF57" Ref="R42"  Part="1" 
-F 0 "R42" H 5630 4104 50  0000 R CNN
-F 1 "4.7k" H 5630 4195 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5630 4150 50  0001 C CNN
-F 3 "~" H 5700 4150 50  0001 C CNN
-	1    5700 4150
+L Device:R R34
+U 1 1 5E7C7B37
+P 3900 4200
+AR Path="/5E9B0028/5E7C7B37" Ref="R34"  Part="1" 
+AR Path="/5E9E5961/5E7C7B37" Ref="R43"  Part="1" 
+F 0 "R34" V 3700 4250 50  0000 C CNN
+F 1 "100k" V 3800 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3830 4200 50  0001 C CNN
+F 3 "~" H 3900 4200 50  0001 C CNN
+	1    3900 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5EA5230E
+P 4400 2900
+AR Path="/5E9B0028/5EA5230E" Ref="R28"  Part="1" 
+AR Path="/5E9E5961/5EA5230E" Ref="R37"  Part="1" 
+F 0 "R28" H 4330 2854 50  0000 R CNN
+F 1 "33k" H 4330 2945 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4330 2900 50  0001 C CNN
+F 3 "~" H 4400 2900 50  0001 C CNN
+	1    4400 2900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R26
-U 1 1 5E7CB92E
-P 5700 2700
-AR Path="/5E9B0028/5E7CB92E" Ref="R26"  Part="1" 
-AR Path="/5E9E5961/5E7CB92E" Ref="R35"  Part="1" 
-F 0 "R35" H 5630 2654 50  0000 R CNN
-F 1 "4.7k" H 5630 2745 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5630 2700 50  0001 C CNN
-F 3 "~" H 5700 2700 50  0001 C CNN
-	1    5700 2700
+L Device:R R31
+U 1 1 5E7CA4DB
+P 4950 3400
+AR Path="/5E9B0028/5E7CA4DB" Ref="R31"  Part="1" 
+AR Path="/5E9E5961/5E7CA4DB" Ref="R40"  Part="1" 
+F 0 "R31" H 4750 3300 50  0000 L CNN
+F 1 "100k" H 4700 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4880 3400 50  0001 C CNN
+F 3 "~" H 4950 3400 50  0001 C CNN
+	1    4950 3400
 	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5E7C9A33
+P 5000 2750
+AR Path="/5E9B0028/5E7C9A33" Ref="R27"  Part="1" 
+AR Path="/5E9E5961/5E7C9A33" Ref="R36"  Part="1" 
+F 0 "R27" V 5207 2750 50  0000 C CNN
+F 1 "33k" V 5116 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4930 2750 50  0001 C CNN
+F 3 "~" H 5000 2750 50  0001 C CNN
+	1    5000 2750
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R32
@@ -164,7 +227,7 @@ U 1 1 5E7CA92D
 P 5000 4150
 AR Path="/5E9B0028/5E7CA92D" Ref="R32"  Part="1" 
 AR Path="/5E9E5961/5E7CA92D" Ref="R41"  Part="1" 
-F 0 "R41" V 5100 4150 50  0000 C CNN
+F 0 "R32" V 5100 4150 50  0000 C CNN
 F 1 "33k" V 5200 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4930 4150 50  0001 C CNN
 F 3 "~" H 5000 4150 50  0001 C CNN
@@ -177,7 +240,7 @@ U 1 1 5E7C9FB0
 P 5250 3350
 AR Path="/5E9B0028/5E7C9FB0" Ref="R29"  Part="1" 
 AR Path="/5E9E5961/5E7C9FB0" Ref="R38"  Part="1" 
-F 0 "R38" H 5320 3396 50  0000 L CNN
+F 0 "R29" H 5320 3396 50  0000 L CNN
 F 1 "10k" H 5320 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5180 3350 50  0001 C CNN
 F 3 "~" H 5250 3350 50  0001 C CNN
@@ -185,42 +248,55 @@ F 3 "~" H 5250 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R27
-U 1 1 5E7C9A33
-P 5000 2750
-AR Path="/5E9B0028/5E7C9A33" Ref="R27"  Part="1" 
-AR Path="/5E9E5961/5E7C9A33" Ref="R36"  Part="1" 
-F 0 "R36" V 5207 2750 50  0000 C CNN
-F 1 "33k" V 5116 2750 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4930 2750 50  0001 C CNN
-F 3 "~" H 5000 2750 50  0001 C CNN
-	1    5000 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R28
-U 1 1 5EA5230E
-P 4400 2900
-AR Path="/5E9B0028/5EA5230E" Ref="R28"  Part="1" 
-AR Path="/5E9E5961/5EA5230E" Ref="R37"  Part="1" 
-F 0 "R37" H 4330 2854 50  0000 R CNN
-F 1 "33k" H 4330 2945 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4330 2900 50  0001 C CNN
-F 3 "~" H 4400 2900 50  0001 C CNN
-	1    4400 2900
+L Device:R R30
+U 1 1 5EA52315
+P 5550 3350
+AR Path="/5E9B0028/5EA52315" Ref="R30"  Part="1" 
+AR Path="/5E9E5961/5EA52315" Ref="R39"  Part="1" 
+F 0 "R30" H 5480 3304 50  0000 R CNN
+F 1 "2.7k" H 5480 3395 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5480 3350 50  0001 C CNN
+F 3 "~" H 5550 3350 50  0001 C CNN
+	1    5550 3350
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R34
-U 1 1 5E7C7B37
-P 3900 4200
-AR Path="/5E9B0028/5E7C7B37" Ref="R34"  Part="1" 
-AR Path="/5E9E5961/5E7C7B37" Ref="R43"  Part="1" 
-F 0 "R43" V 3700 4250 50  0000 C CNN
-F 1 "100k" V 3800 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3830 4200 50  0001 C CNN
-F 3 "~" H 3900 4200 50  0001 C CNN
-	1    3900 4200
+L Device:R R26
+U 1 1 5E7CB92E
+P 5700 2700
+AR Path="/5E9B0028/5E7CB92E" Ref="R26"  Part="1" 
+AR Path="/5E9E5961/5E7CB92E" Ref="R35"  Part="1" 
+F 0 "R26" H 5630 2654 50  0000 R CNN
+F 1 "4.7k" H 5630 2745 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5630 2700 50  0001 C CNN
+F 3 "~" H 5700 2700 50  0001 C CNN
+	1    5700 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 5E7CBF57
+P 5700 4150
+AR Path="/5E9B0028/5E7CBF57" Ref="R33"  Part="1" 
+AR Path="/5E9E5961/5E7CBF57" Ref="R42"  Part="1" 
+F 0 "R33" H 5630 4104 50  0000 R CNN
+F 1 "4.7k" H 5630 4195 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5630 4150 50  0001 C CNN
+F 3 "~" H 5700 4150 50  0001 C CNN
+	1    5700 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 5E7C5EF7
+P 6200 3000
+AR Path="/5E9B0028/5E7C5EF7" Ref="D7"  Part="1" 
+AR Path="/5E9E5961/5E7C5EF7" Ref="D9"  Part="1" 
+F 0 "D7" V 6154 3079 50  0000 L CNN
+F 1 "1N4148" V 6245 3079 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6200 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 3000 50  0001 C CNN
+	1    6200 3000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -229,7 +305,7 @@ U 1 1 5E7C6F4B
 P 6200 4000
 AR Path="/5E9B0028/5E7C6F4B" Ref="D8"  Part="1" 
 AR Path="/5E9E5961/5E7C6F4B" Ref="D10"  Part="1" 
-F 0 "D10" V 6250 4050 50  0000 L CNN
+F 0 "D8" V 6250 4050 50  0000 L CNN
 F 1 "1N4148" V 6350 4050 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6200 3825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 4000 50  0001 C CNN
@@ -237,64 +313,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D7
-U 1 1 5E7C5EF7
-P 6200 3000
-AR Path="/5E9B0028/5E7C5EF7" Ref="D7"  Part="1" 
-AR Path="/5E9E5961/5E7C5EF7" Ref="D9"  Part="1" 
-F 0 "D9" V 6154 3079 50  0000 L CNN
-F 1 "1N4148" V 6245 3079 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6200 2825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 3000 50  0001 C CNN
-	1    6200 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_BJT:BC807 Q19
-U 1 1 5E7C55FB
-P 5450 2750
-AR Path="/5E9B0028/5E7C55FB" Ref="Q19"  Part="1" 
-AR Path="/5E9E5961/5E7C55FB" Ref="Q27"  Part="1" 
-F 0 "Q27" H 5250 2700 50  0000 L CNN
-F 1 "BC807" H 5250 2600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5650 2675 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 5450 2750 50  0001 L CNN
-	1    5450 2750
-	1    0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q25
-U 1 1 5E7C5075
-P 5450 4150
-AR Path="/5E9B0028/5E7C5075" Ref="Q25"  Part="1" 
-AR Path="/5E9E5961/5E7C5075" Ref="Q33"  Part="1" 
-F 0 "Q33" H 5300 4050 50  0000 L CNN
-F 1 "BC817" H 5300 3950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5650 4075 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 5450 4150 50  0001 L CNN
-	1    5450 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q23
-U 1 1 5E7C48C0
-P 5150 3700
-AR Path="/5E9B0028/5E7C48C0" Ref="Q23"  Part="1" 
-AR Path="/5E9E5961/5E7C48C0" Ref="Q31"  Part="1" 
-F 0 "Q31" H 5000 3600 50  0000 L CNN
-F 1 "BC817" H 5000 3500 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5350 3625 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 5150 3700 50  0001 L CNN
-	1    5150 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Transistor_BJT:BC817 Q26
 U 1 1 5E7C3C3D
 P 4300 4200
 AR Path="/5E9B0028/5E7C3C3D" Ref="Q26"  Part="1" 
 AR Path="/5E9E5961/5E7C3C3D" Ref="Q34"  Part="1" 
-F 0 "Q34" H 4150 4100 50  0000 L CNN
+F 0 "Q26" H 4150 4100 50  0000 L CNN
 F 1 "BC817" H 4150 4000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 4125 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 4300 4200 50  0001 L CNN
@@ -307,7 +331,7 @@ U 1 1 5E7C364B
 P 4600 3200
 AR Path="/5E9B0028/5E7C364B" Ref="Q21"  Part="1" 
 AR Path="/5E9E5961/5E7C364B" Ref="Q29"  Part="1" 
-F 0 "Q29" H 4450 3100 50  0000 L CNN
+F 0 "Q21" H 4450 3100 50  0000 L CNN
 F 1 "BC817" H 4450 3000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4800 3125 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 4600 3200 50  0001 L CNN
@@ -320,7 +344,7 @@ U 1 1 5EA52305
 P 4600 3700
 AR Path="/5E9B0028/5EA52305" Ref="Q22"  Part="1" 
 AR Path="/5E9E5961/5EA52305" Ref="Q30"  Part="1" 
-F 0 "Q30" H 4400 3650 50  0000 L CNN
+F 0 "Q22" H 4400 3650 50  0000 L CNN
 F 1 "BC807" H 4400 3550 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4800 3625 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 4600 3700 50  0001 L CNN
@@ -328,16 +352,42 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 4600 3700 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_FET:FR024N Q24
-U 1 1 5E7BD0A7
-P 5900 3800
-AR Path="/5E9B0028/5E7BD0A7" Ref="Q24"  Part="1" 
-AR Path="/5E9E5961/5E7BD0A7" Ref="Q32"  Part="1" 
-F 0 "Q32" H 5750 3750 50  0000 L CNN
-F 1 "FR024N" H 5600 3950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 6100 3725 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55" H 5900 3800 50  0001 L CNN
-	1    5900 3800
+L Transistor_BJT:BC817 Q23
+U 1 1 5E7C48C0
+P 5150 3700
+AR Path="/5E9B0028/5E7C48C0" Ref="Q23"  Part="1" 
+AR Path="/5E9E5961/5E7C48C0" Ref="Q31"  Part="1" 
+F 0 "Q23" H 5000 3600 50  0000 L CNN
+F 1 "BC817" H 5000 3500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5350 3625 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 5150 3700 50  0001 L CNN
+	1    5150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC807 Q19
+U 1 1 5E7C55FB
+P 5450 2750
+AR Path="/5E9B0028/5E7C55FB" Ref="Q19"  Part="1" 
+AR Path="/5E9E5961/5E7C55FB" Ref="Q27"  Part="1" 
+F 0 "Q19" H 5250 2700 50  0000 L CNN
+F 1 "BC807" H 5250 2600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5650 2675 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 5450 2750 50  0001 L CNN
+	1    5450 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC817 Q25
+U 1 1 5E7C5075
+P 5450 4150
+AR Path="/5E9B0028/5E7C5075" Ref="Q25"  Part="1" 
+AR Path="/5E9E5961/5E7C5075" Ref="Q33"  Part="1" 
+F 0 "Q25" H 5300 4050 50  0000 L CNN
+F 1 "BC817" H 5300 3950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5650 4075 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 5450 4150 50  0001 L CNN
+	1    5450 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -346,69 +396,24 @@ U 1 1 5E7BCB59
 P 5900 3050
 AR Path="/5E9B0028/5E7BCB59" Ref="Q20"  Part="1" 
 AR Path="/5E9E5961/5E7BCB59" Ref="Q28"  Part="1" 
-F 0 "Q28" H 5750 3100 50  0000 L CNN
+F 0 "Q20" H 5750 3100 50  0000 L CNN
 F 1 "FR9024N" H 5600 3200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 6100 2975 50  0001 L CIN
 F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/674885/KEXIN/FR9024N/+45489JVHDVpOcpUEBvwV+/datasheet.pdf" V 5900 3050 50  0001 L CNN
 	1    5900 3050
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	4950 3250 4950 3200
-Wire Wire Line
-	5550 3050 5550 3200
-Wire Wire Line
-	5550 3500 5550 3800
-Wire Wire Line
-	4950 3550 4950 3700
 $Comp
-L Device:R R31
-U 1 1 5E7CA4DB
-P 4950 3400
-AR Path="/5E9B0028/5E7CA4DB" Ref="R31"  Part="1" 
-AR Path="/5E9E5961/5E7CA4DB" Ref="R40"  Part="1" 
-F 0 "R40" H 4750 3300 50  0000 L CNN
-F 1 "100k" H 4700 3400 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4880 3400 50  0001 C CNN
-F 3 "~" H 4950 3400 50  0001 C CNN
-	1    4950 3400
-	-1   0    0    1   
+L Transistor_FET:FR024N Q24
+U 1 1 5E7BD0A7
+P 5900 3800
+AR Path="/5E9B0028/5E7BD0A7" Ref="Q24"  Part="1" 
+AR Path="/5E9E5961/5E7BD0A7" Ref="Q32"  Part="1" 
+F 0 "Q24" H 5750 3750 50  0000 L CNN
+F 1 "FR024N" H 5600 3950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 6100 3725 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55" H 5900 3800 50  0001 L CNN
+	1    5900 3800
+	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R30
-U 1 1 5EA52315
-P 5550 3350
-AR Path="/5E9B0028/5EA52315" Ref="R30"  Part="1" 
-AR Path="/5E9E5961/5EA52315" Ref="R39"  Part="1" 
-F 0 "R39" H 5480 3304 50  0000 R CNN
-F 1 "2.7k" H 5480 3395 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5480 3350 50  0001 C CNN
-F 3 "~" H 5550 3350 50  0001 C CNN
-	1    5550 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6200 3150 6200 3400
-Wire Wire Line
-	3600 4200 3750 4200
-Wire Wire Line
-	4100 4200 4050 4200
-Wire Wire Line
-	4400 3700 4400 4000
-Wire Wire Line
-	6200 3400 6200 3850
-Text HLabel 4400 2500 0    50   Input ~ 0
-PWR
-Text HLabel 6200 4450 2    50   Input ~ 0
-GND
-Text HLabel 6250 3400 2    50   Output ~ 0
-VOUT
-Wire Wire Line
-	6200 3400 6250 3400
-Text HLabel 4950 3200 1    50   Input ~ 0
-DISABLE
-Text HLabel 3600 4200 0    50   Input ~ 0
-DIRECTION
-Text HLabel 4400 3900 0    50   Output ~ 0
-FLOP
 $EndSCHEMATC
